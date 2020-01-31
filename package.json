@@ -1,11 +1,10 @@
 {
-  "name": "jax-light",
+  "name": "jax-ng-light",
   "version": "0.0.1",
-  "description": "Light Angular Material Theme for The Jackson Laboratory",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "jax-theme": "*"
   },
+  "description": "Light Angular Material Theme for The Jackson Laboratory",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahcurrier/jax-ng-light.git"
