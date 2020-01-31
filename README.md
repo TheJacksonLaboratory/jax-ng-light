@@ -16,4 +16,3 @@ This will also install the `jax-theme` package, a dependency
 ## Import the Sass file
 To the end of your global styles.scss file, append this line:  
 `@import '~jax-ng-light/theme';`
-
