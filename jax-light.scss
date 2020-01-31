@@ -1,0 +1,86 @@
+@import '~@angular/material/theming';
+
+@font-face{
+    font-family:"DIN Next";
+    src:url("assets/fonts/de1216be-00c2-43c0-9c45-3e7f925eb519.woff2") format("woff2");
+    font-weight:300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"DIN Next";
+    src:url("assets/fonts/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"DIN Next";
+    src:url("assets/fonts/be607c9f-3c81-41b4-b7ad-17af005c80bb.woff2") format("woff2");
+    font-weight:600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"DIN Next";
+    src:url("assets/fonts/121784c1-863c-4e49-b682-625ea7de55b0.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+$custom-typography: mat-typography-config(
+  $font-family: 'DIN Next, sans-serif',
+);
+
+
+
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core($custom-typography);
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$theme-test-primary: mat-palette($mat-blue-grey, 300, 50, 600);
+$theme-test-accent: mat-palette($mat-light-blue, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$theme-test-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$theme-test-theme: mat-light-theme($theme-test-primary, $theme-test-accent, $theme-test-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($theme-test-theme);
+
+
+
+.mat-form-field-type-mat-input .mat-form-field-infix {
+  background-clip:padding-box;
+  background-color:mat-color($theme-test-primary, 900);
+  padding-left:7px;
+  padding-right:7px;
+}
+
+.mat-form-field-type-mat-input .mat-form-field-label-wrapper {
+  left:7px;
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color:white;
+  color:#222;
+  margin: 0;
+  font-family: "DIN Next", sans-serif;
+}
+
