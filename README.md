@@ -12,7 +12,7 @@ If it isn't:
 
 ## 3. Install Package
 From your Angular project directory,  
-`npm install ahcurrier/jax-ng-light`  
+`npm install thejacksonlaboratory/jax-ng-light`  
 This will also install the `jax-theme` package, a dependency
 
 ## 4. Import the Sass file
