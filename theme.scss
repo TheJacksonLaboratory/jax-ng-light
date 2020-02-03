@@ -35,14 +35,8 @@ $font-y-offset: 0.11em !default;
 .mat-checkbox-label,
 .mat-radio-label-content,
 .mat-form-field-infix > input {
-  top:$font-y-offset;
-}
-
-.mat-button-wrapper,
-.mat-checkbox-label,
-.mat-radio-label-content,
-.mat-form-field-infix > input {
   position:relative;
+  top:$font-y-offset;
 }
 
 .mat-form-field-label-wrapper {
