@@ -26,6 +26,23 @@ $jax-light-theme: mat-light-theme($jax-light-primary, $jax-light-accent, $jax-li
   left:7px;
 }
 
+/* Vertical offset to fix DIN Next W01 bounding box issue */
+/* Set this to 0 when using other fonts */
+
+$font-y-offset: 0.11em !default;
+
+.mat-button-wrapper,
+.mat-checkbox-label,
+.mat-radio-label-content,
+.mat-form-field-infix > input {
+  position:relative;
+  top:$font-y-offset;
+}
+
+.mat-form-field-label-wrapper {
+  top:calc(-0.84375em + #{$font-y-offset});
+}
+
 body {
   background-color:white;
   color:#222;
