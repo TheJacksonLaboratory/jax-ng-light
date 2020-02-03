@@ -15,7 +15,6 @@ $jax-light-theme: mat-light-theme($jax-light-primary, $jax-light-accent, $jax-li
 
 @include angular-material-theme($jax-light-theme);
 
-
 .mat-form-field-type-mat-input .mat-form-field-infix {
   background-clip:padding-box;
   background-color:mat-color($jax-light-primary, 100);
@@ -27,14 +26,8 @@ $jax-light-theme: mat-light-theme($jax-light-primary, $jax-light-accent, $jax-li
   left:7px;
 }
 
-
-html, body {
-  height: 100%;
-}
-
 body {
   background-color:white;
   color:#222;
-  margin: 0;
   font-family: "DIN Next W01", "DDIN", sans-serif;
 }
