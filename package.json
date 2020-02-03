@@ -2,12 +2,12 @@
   "name": "jax-ng-light",
   "version": "0.0.1",
   "dependencies": {
-    "jax-theme": "git+https://github.com/ahcurrier/jax-theme.git"
+    "jax-theme": "git+https://github.com/thejacksonlaboratory/jax-theme.git"
   },
   "description": "Light Angular Material Theme for The Jackson Laboratory",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahcurrier/jax-ng-light.git"
+    "url": "git+https://github.com/thejacksonlaboratory/jax-ng-light.git"
   },
   "keywords": [
     "node",
@@ -19,7 +19,7 @@
   "author": "Andrew Currier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ahcurrier/jax-ng-light/issues"
+    "url": "https://github.com/thejacksonlaboratory/jax-ng-light/issues"
   },
-  "homepage": "https://github.com/ahcurrier/jax-ng-light#readme"
+  "homepage": "https://github.com/thejacksonlaboratory/jax-ng-light#readme"
 }
