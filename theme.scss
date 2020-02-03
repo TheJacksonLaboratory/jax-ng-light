@@ -2,14 +2,14 @@
 @import 'node_modules/jax-theme/theme';
 
 $jax-typography: mat-typography-config(
-  $font-family: 'DDIN, sans-serif',
+  $font-family: 'DIN Next W01, DDIN, sans-serif',
 );
 
 @include mat-core($jax-typography);
 
-$jax-light-primary: mat-palette($jax-gray, 300, 50, 600);
-$jax-light-accent: mat-palette($jax-teal, A200, A100, A400);
-$jax-light-warn: mat-palette($jax-teal);
+$jax-light-primary: mat-palette($jax-gray, 700, 500, 900);
+$jax-light-accent: mat-palette($jax-teal, 700, 500, 900);
+$jax-light-warn: mat-palette($jax-dark-blue);
 
 $jax-light-theme: mat-light-theme($jax-light-primary, $jax-light-accent, $jax-light-warn);
 
@@ -18,7 +18,7 @@ $jax-light-theme: mat-light-theme($jax-light-primary, $jax-light-accent, $jax-li
 
 .mat-form-field-type-mat-input .mat-form-field-infix {
   background-clip:padding-box;
-  background-color:mat-color($jax-light-primary, 50);
+  background-color:mat-color($jax-light-primary, 100);
   padding-left:7px;
   padding-right:7px;
 }
@@ -36,5 +36,5 @@ body {
   background-color:white;
   color:#222;
   margin: 0;
-  font-family: "DDIN", sans-serif;
+  font-family: "DIN Next W01", "DDIN", sans-serif;
 }

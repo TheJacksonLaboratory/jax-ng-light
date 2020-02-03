@@ -2,7 +2,7 @@
   "name": "jax-ng-light",
   "version": "0.0.1",
   "dependencies": {
-    "jax-theme": "*"
+    "jax-theme": "git+https://github.com/ahcurrier/jax-theme.git"
   },
   "description": "Light Angular Material Theme for The Jackson Laboratory",
   "repository": {
