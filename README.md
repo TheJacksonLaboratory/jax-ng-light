@@ -1,5 +1,5 @@
 # jax-ng-light
-Light Angular Material Theme for The Jackson Laboratory
+Light Angular Material theme for The Jackson Laboratory
 
 # How To Install
 
