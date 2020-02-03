@@ -3,7 +3,7 @@ Light Angular Material theme for The Jackson Laboratory
 
 # How To Install
 
-## 1. Make sure your Angular project is setup to use Sass
+## 1. Make sure your Angular project is set up to use Sass
 If it isn't:
 1. Either do `ng config defaults.styleExt=scss` or manually edit the `style` property in your angular.json file
 2. Rename your global styles.css file to styles.scss 
