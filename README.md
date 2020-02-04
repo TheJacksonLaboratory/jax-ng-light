@@ -1,6 +1,6 @@
 # jax-ng-light
 Light Angular Material theme for The Jackson Laboratory
- 
+
 # How To Install
 
 ## 1. Make sure your Angular project is set up to use Sass
