@@ -43,6 +43,21 @@ $font-y-offset: 0.11em !default;
   top:calc(-0.84375em + #{$font-y-offset});
 }
 
+/* JAX nav-style menu */
+
+.mat-button.mat-menu-trigger {
+	font-size:1em;
+}
+
+.mat-button.mat-menu-trigger:after {
+	font-family: 'Material Icons';
+	content: '\e5cf';
+	font-size:1.4em;
+	position:relative;
+	left:0.1em;
+	top:0.35em;
+}
+
 body {
   background-color:white;
   color:#222;
