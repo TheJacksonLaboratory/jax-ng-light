@@ -43,7 +43,7 @@ $font-y-offset: 0.11em !default;
 .mat-form-field-type-mat-input .mat-form-field-infix,
 .mat-form-field-type-mat-select .mat-form-field-infix {
   background-clip:padding-box;
-  background-color:mat-color($jax-light-primary, 100);
+  background-color:mat-color($jax-light-primary, 50);
   padding-left:7px;
   padding-right:7px;
 }
